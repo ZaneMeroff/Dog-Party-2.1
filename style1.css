@@ -1,0 +1,187 @@
+/* -----------------nav bar--------------------- */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #75e2e6;
+}
+
+li a {
+  font-family: 'Open Sans';
+  display: block;
+  color: black;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  float: right;
+}
+
+li a:hover {
+  background-color: #048eaa;
+  color: white;
+}
+
+.logo {
+  padding-top: 4px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  height: 53px;
+  width: 50px;
+  float: left;
+  background-color: #75e2e6;
+}
+
+/* -----------------header--------------------- */
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba( 0, 0, 0, 0.4)), url(images/park.jpg) center no-repeat;
+  /* filter: brightness(50%); */
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+}
+
+span {
+  font-weight: bolder;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 35px;
+  font-weight: normal;
+  font-family: 'Open Sans';
+  color: white;
+  font-size: 40px;
+}
+
+.dogone {
+  border: 5px solid #048eaa;
+  border-radius: 300px;
+  height: 200px;
+  width: 200px;
+  margin-top: 30px;
+}
+
+nav {
+  border-bottom: 3px solid #048eaa;
+}
+
+body {
+  margin: 0;
+}
+
+fieldset {
+  border: 0;
+  margin-top: -50px;
+  margin-left: 31%;
+  font-family: 'Open Sans';
+  color: white;
+}
+
+.change-text {
+  width: 406px;
+  height: 50px;
+  margin-bottom: 10px;
+  font-family: 'Open Sans';
+  background-color: #75e2e6;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.name-this-doggo-button {
+  width: 406px;
+  height: 50px;
+  font-family: 'Open Sans';
+  background-color: #75e2e6;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.dog-name-input-field,
+.change-paragraph-input-field {
+  width: 400px;
+  height: 40px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  display: block;
+}
+
+.change-paragraph-input-field {
+  height: 100px;
+}
+
+/* -----------------three dog columns--------------------- */
+
+h2 {
+  font-family: 'Open Sans';
+  font-size: 30px;
+  font-style: bold;
+}
+
+section {
+  display: inline-block;
+  width: 30%;
+}
+
+.threedogs {
+  text-align: center;
+}
+
+p {
+  text-align: left;
+  font-size: 20px;
+  padding: 30px;
+  margin-bottom: 10px;
+  font-family: 'Open Sans';
+  height: 300px;
+}
+
+.dog-profiles {
+  height: 200px;
+  width: 200px;
+  border: 5px solid #048eaa;
+  border-radius: 300px;
+}
+
+.dog-button-one,
+.dog-button-two,
+.dog-button-three {
+  height: 55px;
+  width: 300px;
+  border-radius: 3px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Open Sans';
+  background-color: #048eaa;
+  margin-bottom: 40px;
+}
+
+/* --------------------footer------------------------ */
+
+h3 {
+  padding-top: 25px;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  color: white;
+}
+
+.bottom-footer {
+  display: inline-block;
+  width: 100%;
+  background-color: #048eaa;
+  text-align: center;
+}
+
+.bottom-footer img {
+  display: inline;
+  padding: 10px;
+  padding-bottom: 50px;
+}
